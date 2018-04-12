@@ -3,40 +3,40 @@
 
     var quiz = [
         {
-            "question"      :   "Quel pays a reçu le plus de demandes d’asile (de ressortissants de pays tiers) dans l'UE en 2015 (premières demandes) ?",
+            "question"      :   "Selon vous, quel est le moment propice pour avoir un acident, si on roule comme un ...?",
             "image"         :   "",
             "choices"       :   [
-                                    "L'Italie",
-                                    "Le Royaume-Uni",
-                                    "La France",
-                                    "L'Allemagne"
+                                    "La matinée",
+                                    "En journée",
+                                    "fin de journée",
+                                    "La nuit"
                                 ],
-            "correct"       :   "L'Allemagne",
-            "explanation"   :   "L'Allemagne a reçu 441 800 primo-demandes d’asile de ressortissants de pays tiers en 2015 (contre 172 945 en 2014), loin devant l’Italie (5ème place: 83 245 demandes), la France (6ème place: 70 570) et le Royaume-Uni (9ème place: moins de 38 370). (Source: Eurostat)", /* Ici, tapez exactement l'intitulé de la réponse correcte plus haut (il faut que ce soit EXACTEMENT la même chaine de caractère */
+            "correct"       :   "En journée",
+            "explanation"   :   "C'est bizzare non ? Mais c'est que les données disent oh... hélas, il faut être en journée pour qu'il ait lieu un accident", /* Ici, tapez exactement l'intitulé de la réponse correcte plus haut (il faut que ce soit EXACTEMENT la même chaine de caractère */
         },
         {
-            "question"      :   "Quel est le premier pays d’origine des demandeurs d’asile (ressortissants de pays tiers) en UE en 2015 (premières demandes) ?",
+            "question"      :   "Selon vous, où as lieu les accidents de la route ?",
             "image"         :   "",
             "choices"       :   [
-                                    "Le Soudan",
-                                    "Le Congo",
-                                    "La Syrie",
-                                    "L'Iraq"
+                                    "Sur les route étroite",
+                                    "Sur les autoroutes",
+                                    "En agglomération",
+                                    "Dans les campagnes..."
                                 ],
-            "correct"       :   "La Syrie",
-            "explanation"   :   "362 775 primo-demandeurs d’asile ressortissants de pays tiers en UE étaient Syriens en 2015 (contre 119 000 en 2014). Cela place la Syrie bien loin devant les autres pays d’origine (178 230 primo-demandeurs viennent d’Afghanistan qui arrive en 2ème place). (Source: Eurostat)",
+            "correct"       :   "En agglomération",
+            "explanation"   :   "Les accidents ont lieu dans les endroits en agglomération...",
         },
         {
-             "question"      :   "Quel pourcentage de demandeurs d’asile (ressortissants de pays tiers) en UE sont des hommes en 2015 (premières demandes) ?",
+             "question"      :   "Une dernière pour la fin, dans quel état se trouve la majorité des victimes ?",
             "image"         :   "",
             "choices"       :   [
-                                    "Plus de 90 %",
-                                    "Entre 70 % et 90 %",
-                                    "Entre 50 % et 70 %",
-                                    "Moins de 50 %"
+                                    "Ivresse avancée",
+                                    "Fatigue chronique",
+                                    "Endormissement exagéré",
+                                    "Je ne sais pas"
                                 ],
-            "correct"       :   "Entre 70 % et 90 %",
-            "explanation"   :   "73 % des primo-demandeurs d’asile ressortissants de pays tiers en UE sont des hommes. (Source: Eurostat)",
+            "correct"       :   "Je ne sais pas",
+            "explanation"   :   "Je ne sais pas, car c'est comme ça...",
         },
 
     ];
