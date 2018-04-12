@@ -1001,7 +1001,7 @@ list-style-type: none;
 				right: 0;
 			}
 
-/* Banner */
+/* Banner  et les images des accidents de la route*/
 
 	#banner {
 		background: url("../images/J1.jpeg");
@@ -1043,44 +1043,6 @@ list-style-type: none;
 
 /* Banner2 */
 
-	#banner2 {
-		background: url("../images/Salgado.jpg");
-		height:484;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		color: #ffffff;
-		padding: 0em 0em 0em;
-		text-align: center;
-	}
-
-		#banner2 h2 {
-			color: #ffffff;
-			font-size: 3em;
-			line-height: 1em;
-			margin: 0 0 0.5em 0;
-			padding: 0;
-		}
-
-		#banner2 p {
-			font-size: 1.5em;
-			margin: 1.5em 0 0 0;
-		}
-
-		#banner2 .actions2 {
-			margin: 3em 0 0 0;
-		}
-
-		#banner2 .button {
-			background-color: transparent;
-			border: 1px solid #ffffff;
-			font-weight: 300;
-		}
-
-			#banner2 .button:hover {
-				background-color: rgba(255, 255, 255, 0.2);
-			}
-
 /* Wrapper */
 
 	.wrapper {
@@ -1090,7 +1052,7 @@ list-style-type: none;
 /* Première couleur choisie: bleu gris = rgba(174,194,203,0.5) à rendre un peu transparent */
 
 		.wrapper.style1 {
-			
+
 			background-color: rgba(170,198,186,0.3);
 			-moz-background-image: linear-gradient(60deg, rgba(170,198,186,0.3) 50%, rgba(170,198,186,0.3) 50%);
 			-webkit-background-image: linear-gradient(60deg, rgba(170,198,186,0.3) 50%, rgba(170,198,186,0.3) 50%);
@@ -1224,143 +1186,6 @@ list-style-type: none;
 				}
 
 
-/* ============================================================================================================================
-== BUBBLE WITH A RIGHT-ANGLED TRIANGLE
-** ============================================================================================================================ */
-
-/* THE SPEECH BUBBLE
-------------------------------------------------------------------------------------------------------------------------------- */
-
-.triangle-right {
-  position:relative;
-  padding:15px;
-  margin:1em 0 3em;
-  color:black;
-  /*background:#075698; /* default background for browsers without gradient support */
-  /*css3 */
-  /*background:-webkit-gradient(linear, 0 0, 0 100%, from(#2e88c4), to(#075698));
-  background:-moz-linear-gradient(#2e88c4, #075698);
-  background:-o-linear-gradient(#2e88c4, #075698);
-  background:linear-gradient(#2e88c4, #075698);*/
-  background: transparent;
-  -webkit-border-radius:10px;
-  -moz-border-radius:10px;
-  border-radius:10px;
-}
-
-
-
-/* Variant : for left positioned triangle
------------------------------------------- */
-/* Fillon  vert-jaune*/
-.triangle-right.left {
-  margin-left:40px;
-  /*background: #d1e231;*/
-  border: 5px solid #d1e231;
-	
-/*box-shadow: 6px 6px 6px black;*/
-}
-/* Hamon Violet-marron*/
-.triangle-right.left0 {
-  margin-left:40px;
- /* background:#933d41;*/
-   /*  box-shadow: 6px 6px 6px black;*/
-border:5px solid #933d41;
-
-
-}
-/* Le pen orange */
-.triangle-right.left2 {
-  margin-left:40px;
- /* background:#e48400;*/
-  /*box-shadow: 6px 6px 6px black;*/
-	border: 5px solid #e48400;
-}
-
-/* Mélenchon bleu canard */
-.triangle-right.left3{
-  margin-left:40px;
-  /*background:#009688;*/
-  /*box-shadow: 6px 6px 6px black;*/
-	border: 5px solid #009688;
-}
-
-/* Macron bleu */
-.triangle-right.left4{
-  margin-left:40px;
-  /*background:#0F52Ba;*/
-  /*box-shadow: 6px 6px 6px black;*/
-	border: 5px solid #0f52ba;
-}
-
-
-/* THE TRIANGLE
-------------------------------------------------------------------------------------------------------------------------------- */
-
-.triangle-right:after {
-  content:"";
-  position:absolute;
-  bottom:-20px; /* value = - border-top-width - border-bottom-width */
-  left:50px; /* controls horizontal position */
-  border-width:20px 0 0 20px; /* vary these values to change the angle of the vertex */
-  border-style:solid;
-  border-color:white transparent;
-  /* reduce the damage in FF3.0 */
-  display:block;
-  width:0;
-}
-
-
-
-/* Variant : left
------------------------------------------- */
-
-/*Fillon*/
-.triangle-right.left:after {
-  top:16px;
-  left:-40px; /* value = - border-left-width - border-right-width */
-  bottom:auto;
-  border-width:15px 40px 0 0; /* vary these values to change the angle of the vertex */
-  border-color:transparent #d1e231;
-}
-
-/*Hamon*/
-.triangle-right.left0:after {
-  top:16px;
-  left:-40px; /* value = - border-left-width - border-right-width */
-  bottom:auto;
-  border-width:15px 40px 0 0; /* vary these values to change the angle of the vertex */
-  border-color:transparent #933d41;
-}
-/*Le pen */
-.triangle-right.left2:after {
-  top:16px;
-  left:-40px; /* value = - border-left-width - border-right-width */
-  bottom:auto;
-  border-width:15px 40px 0 0; /* vary these values to change the angle of the vertex */
-  border-color:transparent #e48400 ;
-}
-
-/* Mélenchon*/
-.triangle-right.left3:after {
-  top:16px;
-  left:-40px; /* value = - border-left-width - border-right-width */
-  bottom:auto;
-  border-width:15px 40px 0 0; /* vary these values to change the angle of the vertex */
-  border-color:transparent #009688;
-}
-
-/* Macron*/
-.triangle-right.left4:after {
-  top:16px;
-  left:-40px; /* value = - border-left-width - border-right-width */
-  bottom:auto;
-  border-width:15px 40px 0 0; /* vary these values to change the angle of the vertex */
-  border-color:transparent #0F52Ba;
-}
-
-
-
 .paraxify.intermede-1{
 background: url("../images/D2.jpg");
 height:800px;
@@ -1415,7 +1240,7 @@ align-items: flex-start;
 }
 
 
-    
+
 /*.roundedImage{
     overflow:hidden;
     -webkit-border-radius:50px;
@@ -1451,7 +1276,7 @@ border-radius:150px;
  border-bottom: 2px inset black;
   box-shadow: -3px 3px 6px black;*/
 
-	
+
    padding: 0px;
 }
 
@@ -1469,10 +1294,10 @@ border-radius:150px;
  border-bottom: 2px inset black;
   box-shadow: -3px 3px 6px black;*/
 
-	
+
    margin: 80px;
 }
-	
+
 	.devrait1 {
 	font-size:60%;
  width: 60%;
@@ -1501,7 +1326,7 @@ align-items: flex-start;
 	.decaler{display:flex;flex-direction:row;}
 	#decaler{display:flex;flex-direction:row;}
 }
-.gen 
+.gen
 {display:flex;
 flex-direction:row;
 flex-wrap:wrap;
@@ -1510,7 +1335,7 @@ margin-top:10px;
 margin-bottom:10px;
 }
 
-.gen2 
+.gen2
 {   display: flex;
     flex-direction: row;
    align-items: center;
@@ -1540,9 +1365,9 @@ height:100%;
   border:3px solid gray;
   -moz-border-radius:3px;
   border-radius:3px;
-  box-shadow:2px 2px 4px #888888; 
-  -moz-box-shadow:2px 2px 4px #888888; 
-  -webkit-box-shadow:2px 2px 4px #888888; 
+  box-shadow:2px 2px 4px #888888;
+  -moz-box-shadow:2px 2px 4px #888888;
+  -webkit-box-shadow:2px 2px 4px #888888;
 }
 .digit
 {
@@ -1559,9 +1384,9 @@ height:100%;
 }
 
   .element + .tooltip > .tooltip-inner {
-      background-color: white; 
-      color: black; 
-      border: 1px solid black; 
+      background-color: white;
+      color: black;
+      border: 1px solid black;
       padding: 15px;
       font-size: 14px;
   }
@@ -1572,9 +1397,9 @@ height:100%;
 }
 
   .def+ .tooltip > .tooltip-inner {
-      background-color: white; 
-      color: black; 
-      border: 1px solid black; 
+      background-color: white;
+      color: black;
+      border: 1px solid black;
       padding: 15px;
       font-size: 11px;
   }
@@ -1608,7 +1433,7 @@ height:100%;
             background-color: #eee;
             border: 0;
         }
-      
+
 */
 .animated.hinge {
   -webkit-animation-duration: 2s;
@@ -4397,5 +4222,3 @@ height:100%;
   -webkit-animation-name: rollOut;
   animation-name: rollOut;
 }
-
-
